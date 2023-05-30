@@ -1,11 +1,13 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Header from "../components/Header";
+import Banner from "../components/Banner";
 
 const About = () => {
   return (
     <div>
-      <Navigation />
+      <Header />
       <h1>a propos</h1>
+      <Banner />
     </div>
   );
 };

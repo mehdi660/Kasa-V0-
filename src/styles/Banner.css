@@ -1,0 +1,25 @@
+.banner-home {
+    background: url(../assets/bg-home.png) center/cover;
+    height: 223px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner-home h1 {
+    color: #FFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.banner-about {
+    background: url(../assets/bg-about.png) center/cover;
+    height: 223px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

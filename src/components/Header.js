@@ -1,15 +1,29 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <div className="logo-kasa">
-        <img src="../assets/K.png" alt="K" />
-        <img src="../assets/Home.png" alt="Home" />
-        <img src="../assets/S.png" alt="S" />
-        <img src="../assets/A.png" alt="A" />
-      </div>
-    </div>
+    <>
+      <header className="conteneur-hdr">
+        <div className="logo"></div>
+        <div className="navigation">
+          <ul>
+            <NavLink
+              to="/"
+              className={(nav) => (nav.isActive ? "nav-active" : "")}
+            >
+              <li>Acceuil</li>
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={(nav) => (nav.isActive ? "nav-active" : "")}
+            >
+              <li>A Propos</li>
+            </NavLink>
+          </ul>
+        </div>
+      </header>
+    </>
   );
 };
 
