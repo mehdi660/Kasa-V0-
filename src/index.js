@@ -7,6 +7,7 @@ import "./styles/Logo.css";
 import "./styles/Header.css";
 import "./styles/Banner.css";
 import "./styles/Footer.css";
+import "./styles/Card.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
