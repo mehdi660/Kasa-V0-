@@ -1,0 +1,25 @@
+footer {
+    background: black;
+    min-width: 100%;
+    bottom: 0;
+}
+
+
+.footer-ctnr {
+    color: aliceblue;
+    text-align: center;
+}
+
+.footer-ctnr img {
+    margin-top: 66px;
+    margin-bottom: 30px;
+    width: 122px;
+    height: 39.44px;
+}
+
+.footer-ctnr p {
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+}
