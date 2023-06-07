@@ -1,0 +1,17 @@
+.error-ctn {
+    text-align: center;
+}
+
+.error-ctn h3 {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 183px;
+}
+
+.error p {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}

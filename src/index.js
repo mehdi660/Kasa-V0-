@@ -9,6 +9,7 @@ import "./styles/Banner.css";
 import "./styles/Footer.css";
 import "./styles/Card.css";
 import "./styles/Collaps.css";
+import "./styles/Error.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
