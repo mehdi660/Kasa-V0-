@@ -17,6 +17,15 @@
     height: 340px;
     margin-bottom: 50px;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(105%);
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .card img {
@@ -28,7 +37,6 @@
 .card h3 {
     margin-top: -60px;
     padding-left: 20px;
-
     margin-bottom: 0;
     color: #FFFF;
 }
