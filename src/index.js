@@ -10,6 +10,7 @@ import "./styles/Footer.css";
 import "./styles/Card.css";
 import "./styles/Collaps.css";
 import "./styles/Error.css";
+import "./styles/Slideshow.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
