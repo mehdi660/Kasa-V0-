@@ -19,7 +19,15 @@ const Collaps = ({ state, defaultState = false }) => {
         />
       </div>
       <div className={isCollapsed ? "collaps-desc" : "desc-hide"}>
-        <p>{state.description}</p>
+        {state.equipments === undefined ? (
+          <p>{state.description}</p>
+        ) : (
+          <ul>
+            {state.equipments.map((equipment, index) => (
+              <li key={index}>{equipment}</li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

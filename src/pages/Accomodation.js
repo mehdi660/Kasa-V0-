@@ -33,18 +33,41 @@ const Accomodation = () => {
         <p>{data.host.name}</p>
         <img
           src={data.host.picture}
-          alt={"Photo de profil de" + data.host.name}
+          alt={"Photo de profil de " + data.host.name}
         />
       </div>
       <div className="tags&ratings">
         <ul className="tags">
-          {data.tags.map((tags, index) => (
+          {data.tags.map((tag, index) => (
             <li className="tag" key={index}>
-              {tags}
+              {tag}
             </li>
           ))}
         </ul>
         <Stars />
+      </div>
+
+      <div className="collaps-container">
+        <div className="collaps-desc">
+          {data && (
+            <Collaps
+              state={{
+                title: "Description",
+                description: data.description,
+              }}
+            />
+          )}
+        </div>
+        <div className="collaps-equipments">
+          {data && (
+            <Collaps
+              state={{
+                title: "Equipments",
+                equipments: data.equipments,
+              }}
+            />
+          )}
+        </div>
       </div>
     </div>
   );
