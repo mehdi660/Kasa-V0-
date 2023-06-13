@@ -12,9 +12,19 @@ const Stars = () => {
     const stars = [];
     for (let i = 0; i < 5; i++) {
       if (i < item.rating) {
-        stars.push(<img key={i} src={StarsFull} alt="Rating" />);
+        stars.push(
+          <img className="stars" key={i} src={StarsFull} alt="Rating" />
+        );
       } else {
-        stars.push(<img key={i} src={StarsEmpty} alt="Rating" />);
+        stars.push(
+          <img
+            className="stars"
+            id="StarsEmpty"
+            key={i}
+            src={StarsEmpty}
+            alt="Rating"
+          />
+        );
       }
     }
     return stars;

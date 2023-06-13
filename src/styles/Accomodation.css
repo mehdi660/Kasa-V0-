@@ -1,0 +1,54 @@
+.general-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.slider {
+    margin-bottom: 30px;
+}
+
+.info-loc {
+    color: #FF6060;
+}
+
+.info-loc h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.info-loc p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.info-host {
+    display: flex;
+    margin-right: -40px;
+}
+
+.info-host p {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+    width: 70px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.info-host img {
+    width: 40%;
+    border-radius: 100px;
+}
+
+.tags-ratings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

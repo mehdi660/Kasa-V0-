@@ -11,6 +11,8 @@ import "./styles/Card.css";
 import "./styles/Collaps.css";
 import "./styles/Error.css";
 import "./styles/Slideshow.css";
+import "./styles/Stars.css";
+import "./styles/Accomodation.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
