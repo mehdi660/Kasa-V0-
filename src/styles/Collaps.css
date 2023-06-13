@@ -22,7 +22,7 @@
     height: 100%;
     padding: 20px;
     margin-bottom: 33px;
-    transition: 0.4s ease-in-out all;
+    transition: 0.2s ease-in-out all;
     opacity: 1;
 }
 
@@ -35,15 +35,15 @@
 }
 
 .desc-hide {
-    transition: 0.2s ease-in-out;
+    transition: 0.1s;
     visibility: hidden;
     opacity: 0;
 }
 
 
 .collaps-title:active .arrowUp {
-    transition: 0.1s ease-in-out;
-    animation: rotate 0.1s;
+    transition: 0.3s ease-in-out;
+    animation: rotate 0.3s;
 }
 
 
