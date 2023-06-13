@@ -7,6 +7,7 @@ import { logement } from "../datas/logements";
 import { useEffect } from "react";
 import Stars from "../components/Stars";
 import Collaps from "../components/Collaps";
+import "../styles/Accomodation.css";
 
 const Accomodation = () => {
   const { id } = useParams();
@@ -41,16 +42,16 @@ const Accomodation = () => {
       <div className="tags-ratings">
         <ul className="tags">
           {data.tags.map((tag, index) => (
-            <li className="tag" key={index}>
+            <button className="tag" key={index}>
               {tag}
-            </li>
+            </button>
           ))}
         </ul>
         <Stars />
       </div>
 
       <div className="collaps-container">
-        <div className="collaps-desc">
+        <div className="acco-desc">
           {data && (
             <Collaps
               state={{
@@ -60,11 +61,11 @@ const Accomodation = () => {
             />
           )}
         </div>
-        <div className="collaps-equipments">
+        <div className="acco-equipments">
           {data && (
             <Collaps
               state={{
-                title: "Equipments",
+                title: "Équipements",
                 equipments: data.equipments,
               }}
             />

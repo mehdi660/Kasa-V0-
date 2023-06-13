@@ -40,3 +40,15 @@
     margin-bottom: 0;
     color: #FFFF;
 }
+
+/* Media Query pour 1024px */
+@media (max-width: 1024px) {
+    .card-container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .card {
+        width: 45%;
+    }
+}

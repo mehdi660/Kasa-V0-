@@ -51,4 +51,58 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.tags {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.tag {
+    list-style-type: none;
+    margin-right: 10px;
+    background: #FF6060;
+    color: #FFFF;
+    border-radius: 10px;
+    width: 145px;
+    height: 25px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.collaps-container {
+    display: flex;
+
+}
+
+.acco-desc {
+    width: 50%;
+    height: 100%;
+    margin-right: 80px;
+}
+
+.acco-desc p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.acco-equipments {
+    width: 50%;
+    height: 100%;
+
+}
+
+.acco-equipments ul {
+    padding: 0;
+}
+
+
+.acco-equipments li {
+    list-style-type: none;
+    font-weight: 400;
+    color: #FF6060;
+    line-height: 25.67px;
 }
