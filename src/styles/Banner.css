@@ -26,3 +26,9 @@
     justify-content: center;
     margin-bottom: 33px;
 }
+
+@media (max-width: 1024px) {
+    .banner-home h1 {
+        font-size: 28px;
+    }
+}

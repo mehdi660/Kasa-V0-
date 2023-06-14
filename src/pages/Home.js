@@ -8,7 +8,7 @@ import "../styles/Banner.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="body-main">
       <Header />
       <Banner />
       <Card />
