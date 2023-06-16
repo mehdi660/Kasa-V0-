@@ -1,7 +1,16 @@
  .logo {
-     background: url(../assets/img/Logo.png) center/cover;
-     width: 210px;
-     height: 68px;
-     margin-top: 40px;
+     width: 30%;
+ }
 
+
+ .logo img {
+     width: 70%;
+     margin-top: 80px;
+ }
+
+ @media (max-width: 1024px) {
+     .logo img {
+         width: 85%;
+
+     }
  }

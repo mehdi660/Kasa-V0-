@@ -58,6 +58,10 @@
     .card {
         width: 45%;
     }
+
+    .card h3 {
+        font-size: 15px;
+    }
 }
 
 
