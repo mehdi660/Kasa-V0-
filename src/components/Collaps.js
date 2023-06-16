@@ -10,7 +10,7 @@ const Collaps = ({ state, defaultState = false }) => {
     setIsCollapsed(!isCollapsed);
   };
   return (
-    <div className="collaps">
+    <div className="collaps collaps-about">
       <div className="collaps-title" onClick={toggleCollapse}>
         <h3>{state.title}</h3>
         <img

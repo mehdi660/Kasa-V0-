@@ -15,3 +15,18 @@
     font-size: 18px;
     text-align: center;
 }
+
+@media (max-width:769px) {
+
+    .error-ctn img {
+        width: 60%;
+    }
+
+    .error-ctn h3 {
+        font-size: 18px;
+    }
+
+    .error p {
+        font-size: 14px;
+    }
+}
