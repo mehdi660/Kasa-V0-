@@ -26,28 +26,30 @@ const Accomodation = () => {
       <div className="slider">
         <Slideshow image={data.pictures} />
       </div>
-      <div className="general-info">
-        <div className="info-loc">
-          <h1>{data.title}</h1>
-          <p>{data.location}</p>
+      <div className="all-info">
+        <div className="general-info">
+          <div className="info-loc">
+            <h1>{data.title}</h1>
+            <p>{data.location}</p>
+          </div>
+          <div className="info-host">
+            <p>{data.host.name}</p>
+            <img
+              src={data.host.picture}
+              alt={"Photo de profil de " + data.host.name}
+            />
+          </div>
         </div>
-        <div className="info-host">
-          <p>{data.host.name}</p>
-          <img
-            src={data.host.picture}
-            alt={"Photo de profil de " + data.host.name}
-          />
+        <div className="tags-ratings">
+          <ul className="tags">
+            {data.tags.map((tag, index) => (
+              <button className="tag" key={index}>
+                {tag}
+              </button>
+            ))}
+          </ul>
+          <Stars />
         </div>
-      </div>
-      <div className="tags-ratings">
-        <ul className="tags">
-          {data.tags.map((tag, index) => (
-            <button className="tag" key={index}>
-              {tag}
-            </button>
-          ))}
-        </ul>
-        <Stars />
       </div>
 
       <div className="collaps-container">
