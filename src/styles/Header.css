@@ -1,6 +1,13 @@
 .conteneur-hdr {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     margin-bottom: 68px;
+    margin-top: 30px;
+}
+
+@media (max-width: 425px) {
+    .conteneur-hdr {
+        margin-bottom: 30px;
+    }
 }
