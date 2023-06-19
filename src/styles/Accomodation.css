@@ -42,7 +42,7 @@
 }
 
 .info-host img {
-    width: 40%;
+    width: 70%;
     border-radius: 100px;
 }
 
@@ -108,4 +108,30 @@
 }
 
 
-@media (max-width:769px) {}
+@media (max-width:769px) {
+    .all-info {
+        position: relative;
+    }
+
+    .info-loc h1 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .info-loc p {
+        font-size: 14px;
+    }
+
+    .info-host {
+        position: absolute;
+    }
+
+    .tags-ratings {
+        flex-direction: column;
+    }
+
+    .tags {
+        margin-bottom: 27px;
+    }
+
+}
