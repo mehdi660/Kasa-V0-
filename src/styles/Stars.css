@@ -7,3 +7,12 @@
     width: 25px;
     height: 24px;
 }
+
+@media (max-width:565px) {
+
+    #StarsEmpty {
+        width: 13px;
+        height: 13px;
+    }
+
+}

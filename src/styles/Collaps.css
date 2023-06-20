@@ -38,6 +38,8 @@
     transition: 0.1s;
     visibility: hidden;
     opacity: 0;
+    overflow: hidden;
+    height: 30px;
 }
 
 

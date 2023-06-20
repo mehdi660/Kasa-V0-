@@ -75,7 +75,6 @@
 
 .collaps-container {
     display: flex;
-
 }
 
 .acco-desc {
@@ -109,6 +108,7 @@
 
 
 @media (max-width:769px) {
+
     .all-info {
         position: relative;
     }
@@ -124,14 +124,69 @@
 
     .info-host {
         position: absolute;
+        right: 0px;
+        top: 110px;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .tags-ratings {
         flex-direction: column;
+        margin-bottom: 30px;
     }
 
     .tags {
-        margin-bottom: 27px;
+        margin-bottom: 35px;
+    }
+
+    .info-host img {
+        width: 30%;
+    }
+
+    .info-host p {
+        font-size: 12px;
+    }
+
+    .acco-desc {
+        width: 100%;
+        margin: 0;
+    }
+
+    .collaps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .acco-equipments {
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+@media (max-width:565px) {
+
+    .tag {
+        list-style-type: none;
+        margin-right: 10px;
+        background: #FF6060;
+        color: #FFFF;
+        border-radius: 10px;
+        width: 145px;
+        height: 25px;
+        border: none;
+        font-family: Montserrat, sans-serif;
+        font-size: 10px;
+    }
+
+    .stars {
+        width: 13px;
+        height: 13px;
+    }
+
+    #StarsEmpty {
+        width: 13px;
+        height: 13px;
     }
 
 }
