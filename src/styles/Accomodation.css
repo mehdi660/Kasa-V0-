@@ -29,6 +29,7 @@
 }
 
 .info-host {
+    align-items: center;
     display: flex;
 }
 
@@ -167,15 +168,11 @@
 @media (max-width:565px) {
 
     .tag {
-        list-style-type: none;
-        margin-right: 10px;
-        background: #FF6060;
-        color: #FFFF;
-        border-radius: 10px;
-        width: 145px;
+        margin-right: 5px;
+        width: 30%;
         height: 25px;
-        border: none;
-        font-family: Montserrat, sans-serif;
+        margin-bottom: 5px;
+
         font-size: 10px;
     }
 
@@ -188,5 +185,11 @@
         width: 13px;
         height: 13px;
     }
+
+    .info-host img {
+        width: 32px;
+        height: 32px;
+    }
+
 
 }
