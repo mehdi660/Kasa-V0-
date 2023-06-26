@@ -17,7 +17,7 @@ const Slideshow = (image) => {
     setCounter((counter + 1) % slideLength);
   };
 
-  const compteur = `${counter}/${slideLength - 1}`;
+  const compteur = `${counter + 1}/${slideLength}`;
 
   return (
     <div className="slider-cntr">
