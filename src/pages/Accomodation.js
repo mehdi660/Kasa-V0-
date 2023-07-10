@@ -1,10 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import Slideshow from "../components/Slideshow";
-import { useParams } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Outlet } from "react-router-dom";
 import { logement } from "../datas/logements";
-import { useEffect } from "react";
 import Stars from "../components/Stars";
 import Collaps from "../components/Collaps";
 import "../styles/Accomodation.css";
@@ -19,6 +17,11 @@ const Accomodation = () => {
       navigation("/error");
     }
   }, [data, navigation]);
+
+  if (!data) {
+    // Si l'ID n'est pas valide, on affiche la page d'erreur
+    return <Outlet />;
+  }
 
   return (
     <div>
@@ -54,24 +57,20 @@ const Accomodation = () => {
 
       <div className="collaps-container">
         <div className="acco-desc">
-          {data && (
-            <Collaps
-              state={{
-                title: "Description",
-                description: data.description,
-              }}
-            />
-          )}
+          <Collaps
+            state={{
+              title: "Description",
+              description: data.description,
+            }}
+          />
         </div>
         <div className="acco-equipments">
-          {data && (
-            <Collaps
-              state={{
-                title: "Équipements",
-                equipments: data.equipments,
-              }}
-            />
-          )}
+          <Collaps
+            state={{
+              title: "Équipements",
+              equipments: data.equipments,
+            }}
+          />
         </div>
       </div>
     </div>
