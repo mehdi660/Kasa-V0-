@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { logement } from "../datas/logements";
+import logement from "../datas/logements";
 import StarsFull from "../assets/img/StarsFull.png";
 import StarsEmpty from "../assets/img/StarsEmpty.png";
 

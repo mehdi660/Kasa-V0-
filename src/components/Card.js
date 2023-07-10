@@ -1,5 +1,5 @@
 import React from "react";
-import { logement } from "../datas/logements";
+import logement from "../datas/logements";
 import { Link } from "react-router-dom";
 
 const Card = () => {

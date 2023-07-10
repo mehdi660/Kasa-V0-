@@ -22,6 +22,7 @@ const route = () => {
             <Route path="/accomodation/:id" element={<Accomodation />} />
             <Route path="*" element={<Navigate to="/error" />} />
           </Route>
+          {/* L'élément Outlet permet d'afficher le contenu des routes enfants */}
           <Route path="/error" element={<Error />} />
         </Routes>
       </BrowserRouter>
