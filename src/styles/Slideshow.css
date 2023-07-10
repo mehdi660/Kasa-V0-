@@ -1,9 +1,3 @@
-.slider-cntr {
-    width: 100%;
-    height: 415px;
-    /* background: #000; */
-}
-
 .slider {
     position: relative;
 }
@@ -11,21 +5,22 @@
 .arrowLeft {
     position: absolute;
     left: 23px;
-    top: 160px;
+    top: 120px;
     cursor: pointer;
 }
 
 .arrowRight {
     position: absolute;
     right: 23px;
-    top: 160px;
+    top: 120px;
     cursor: pointer;
 }
 
 .picture-appart {
     width: 100%;
     border-radius: 25px;
-    height: 415px;
+    height: 282px;
+    object-fit: cover;
 }
 
 .counter {
@@ -40,13 +35,13 @@
     .arrowLeft {
         width: 20px;
         height: 29px;
-        top: 190px;
+        top: 140px;
     }
 
     .arrowRight {
         width: 20px;
         height: 29px;
-        top: 190px;
+        top: 140px;
     }
 }
 
